@@ -28,3 +28,7 @@ com.google.firebase:firebase-invites:11.2.2	Invites and Dynamic Links
 com.google.firebase:firebase-ads:11.2.2	AdMob
 com.google.firebase:firebase-appindexing:11.2.2	App Indexing
 com.google.firebase:firebase-perf:11.2.2	Performance Monitoring
+
+apk decompiler site:-
+
+http://www.javadecompilers.com/
