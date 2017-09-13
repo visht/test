@@ -32,3 +32,5 @@ com.google.firebase:firebase-perf:11.2.2	Performance Monitoring
 apk decompiler site:-
 
 http://www.javadecompilers.com/
+
+https://physics.stackexchange.com/questions/196136/why-does-a-free-falling-body-experience-no-force-despite-accelerating
