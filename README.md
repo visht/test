@@ -73,3 +73,7 @@ JAVA_HOME=/usr/lib/jvm/java-8-oracle
 Subproject Path: CordovaLib
 Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+
+
+IONIC 2 GOOGLE MAP INTEGRATION:-
+https://ampersandacademy.com/tutorials/ionic-framework-version-2/google-map-api-working-example
