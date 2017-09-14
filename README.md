@@ -77,3 +77,10 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 
 IONIC 2 GOOGLE MAP INTEGRATION:-
 https://ampersandacademy.com/tutorials/ionic-framework-version-2/google-map-api-working-example
+
+FIX ROOT PRIVILLAGES OVER IONIC CLI SCRIPTS:-
+nautilus /usr/local -> This command will return you a path of you admin level environment variables.
+Now use command:- 
+export PATH="your path here for admin level".
+Now you can build your ionic app easily.
+
