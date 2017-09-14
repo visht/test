@@ -84,3 +84,8 @@ Now use command:-
 export PATH="your path here for admin level".
 Now you can build your ionic app easily.
 
+IONIC PLUGIN CREATION STEPS:-
+plugman create --name pluginname --plugin_id cordova-plugin-am-i-late --plugin_version 0.0.1
+add platform-
+plugman platform add --platform_name android
+
