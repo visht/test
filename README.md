@@ -94,4 +94,6 @@ add platform-
 
 plugman platform add --platform_name android
 
+KOTLIN BASICS:-
+
 https://blog.jetbrains.com/kotlin/2013/06/static-constants-in-kotlin/
