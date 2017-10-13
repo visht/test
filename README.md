@@ -124,3 +124,30 @@ Utility APIs:
 java.util.function
 java.util.stream
 
+Enable Java 8 Features and the Jack Toolchain
+In order to use Java 8 language features, you need to also use the Jack toolchain. This Android toolchain compiles Java language sources into Android-readable DEX bytecode, has its own .jack library format, and provides most toolchain features as part of a single tool: repackaging, shrinking, obfuscation and multidex.
+
+Here is a comparison of the two toolchains used to build Android DEX files:
+
+Legacy javac toolchain:
+javac (.java → .class) → dx (.class → .dex)
+New Jack toolchain:
+Jack (.java → .jack → .dex)
+Configure Gradle
+To enable Java 8 language features and Jack for your project, enter the following in your module-level build.gradle file:
+
+android {
+  ...
+  defaultConfig {
+    ...
+    jackOptions {
+      enabled true
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+}
+
+
