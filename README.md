@@ -97,3 +97,30 @@ plugman platform add --platform_name android
 KOTLIN BASICS:-
 
 https://blog.jetbrains.com/kotlin/2013/06/static-constants-in-kotlin/
+
+
+Java 8 features based on android:-
+
+Supported Java 8 Language Features and APIs
+Android does not support all Java 8 language features. However, the following features are available when developing apps targeting Android 7.0 (API level 24):
+
+Default and static interface methods
+Lambda expressions (also available on API level 23 and lower)
+Repeatable annotations
+Method References (also available on API level 23 and lower)
+Type Annotations (also available on API level 23 and lower)
+Note: Note: Type annotation information is available at compile time, but not at runtime. Also, the platform supports TYPE in API 24 and below, but not ElementType.TYPE_USE or ElementType.TYPE_PARAMETER..
+
+To test lambda expressions, method references, and type annotations on earlier versions of Android, go to your build.gradle file, and set compileSdkVersion and targetSdkVersion to 23 or lower. You will still need to enable the Jack toolchain to use these Java 8 features.
+
+Additionally, the following Java 8 language APIs are also available:
+
+Reflection and language-related APIs:
+java.lang.FunctionalInterface
+java.lang.annotation.Repeatable
+java.lang.reflect.Method.isDefault()
+and Reflection APIs associated with repeatable annotations, such as AnnotatedElement.getAnnotationsByType(Class)
+Utility APIs:
+java.util.function
+java.util.stream
+
