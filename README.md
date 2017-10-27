@@ -150,4 +150,6 @@ android {
   }
 }
 
+Android development architecture detail:-
 
+https://developer.android.com/topic/libraries/architecture/guide.html
