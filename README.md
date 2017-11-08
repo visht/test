@@ -153,3 +153,8 @@ android {
 Android development architecture detail:-
 
 https://developer.android.com/topic/libraries/architecture/guide.html
+
+
+Best rx java tutorial:-
+
+https://github.com/AutSoft/RxJavaOnAndroidArticleExamples
